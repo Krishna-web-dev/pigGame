@@ -30,7 +30,7 @@ initial();
 // console.log(valueUsingDom);
 // modifying css by using.style and then css properties
 
-
+finalScore = prompt("enter the winning score (HINT:start with 20)");
 //resetting to 0 
 document.querySelector("#current-0").textContent = 0;
 document.querySelector("#current-1").textContent = 0;
@@ -174,7 +174,7 @@ initial();
 function initial (){
 // document.querySelector(".winning").pause();
 
- finalScore = prompt("enter the winning score (HINT:start with 20)");
+ 
   // console.log(finalScore);
 
   gamePlaying = true;
